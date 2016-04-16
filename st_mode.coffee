@@ -4,6 +4,7 @@
 # @see http://man7.org/linux/man-pages/man2/stat.2.html
 # @see http://www.gnu.org/software/libc/manual/html_node/Testing-File-Type.html
 # @see /usr/src/linux-headers-X.X.X-X/include/uapi/linux/stat.h
+# @see http://stackoverflow.com/questions/36541663/s-isvtx-sticky-bit-constant-name-explanation
 # @todo see http://james.padolsey.com/cool-stuff/double-bitwise-not/
 
 S_IFMT  = 0b1111000000000000 # Bitmask for the filetype bitfield. (mask for filetype)
